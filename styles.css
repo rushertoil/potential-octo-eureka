@@ -1,0 +1,105 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    flex-direction: column; /* Empile les éléments verticalement */
+    align-items: center; /* Centrer horizontalement */
+    padding: 10px 20px;
+}
+
+header .logo {
+    margin-bottom: 10px; /* Espace entre le logo et la nav */
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    background-color: #444; /* Ajouter un fond à la barre de navigation */
+    padding: 10px;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #555;
+    border-radius: 3px;
+}
+
+header nav ul li a:hover {
+    background-color: #666;
+}
+
+/* Barre de recherche */
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 10px;
+}
+
+/* Style des cartes de voitures */
+.cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.car img {
+    max-width: 100%;
+    height: auto;
+}
+
+.car h2 {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+.bloc video {
+    
+    position: fixed; /* Positionne la vidéo de manière fixe */    
+    top: 0;     
+    left: 0;     
+    width: 100%; /* Assurez-vous que la vidéo couvre toute la largeur */    
+    height: auto; /* Hauteur automatique pour conserver les proportions d'origine */    
+}
